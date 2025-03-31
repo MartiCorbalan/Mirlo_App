@@ -1,0 +1,29 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  infinite_carousel: ^1.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  curved_navigation_bar: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Añadimos las imágenes en la sección de assets
+  assets:
+    - assets/perro1.jpeg
+    - assets/perro2.jpeg
+    - assets/perro3.jpeg

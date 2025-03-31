@@ -1,0 +1,28 @@
+^C:\USERS\CORBA\DESKTOP\FLUTTER\FLUTTER_APPLICATION_1\BUILD\WINDOWS\X64\CMAKEFILES\E127056C8A6A3C3D9E47D47564F6684D\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+D:\visual\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\Corba\Desktop\flutter\flutter_application_1 FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Corba\Desktop\flutter\flutter_application_1\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Corba\Desktop\flutter\flutter_application_1 FLUTTER_TARGET=C:\Users\Corba\Desktop\flutter\flutter_application_1\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Corba\Desktop\flutter\flutter_application_1\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CORBA\DESKTOP\FLUTTER\FLUTTER_APPLICATION_1\BUILD\WINDOWS\X64\CMAKEFILES\36BF09685E1AFE41B93D2038EE9698C3\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CORBA\DESKTOP\FLUTTER\FLUTTER_APPLICATION_1\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+D:\visual\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SC:/Users/Corba/Desktop/flutter/flutter_application_1/windows -BC:/Users/Corba/Desktop/flutter/flutter_application_1/build/windows/x64 --check-stamp-file C:/Users/Corba/Desktop/flutter/flutter_application_1/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
